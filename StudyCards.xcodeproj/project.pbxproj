@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3FD76582B286973001C1F09 /* StudyCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD76572B286973001C1F09 /* StudyCardsApp.swift */; };
+		F3FD765A2B286973001C1F09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD76592B286973001C1F09 /* ContentView.swift */; };
+		F3FD765C2B286977001C1F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FD765B2B286977001C1F09 /* Assets.xcassets */; };
+		F3FD765F2B286977001C1F09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FD765E2B286977001C1F09 /* Preview Assets.xcassets */; };
+		F3FD76612B286977001C1F09 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD76602B286977001C1F09 /* Persistence.swift */; };
+		F3FD76642B286977001C1F09 /* StudyCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3FD76622B286977001C1F09 /* StudyCards.xcdatamodeld */; };
+		F3FD766B2B286996001C1F09 /* Rainbow Paper.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3FD766A2B286996001C1F09 /* Rainbow Paper.ttf */; };
+		F3FD766F2B286B8F001C1F09 /* QuestionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD766E2B286B8F001C1F09 /* QuestionListView.swift */; };
+		F3FD76712B286C16001C1F09 /* AddQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD76702B286C16001C1F09 /* AddQuestionView.swift */; };
+		F3FD76732B286C39001C1F09 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD76722B286C39001C1F09 /* QuizView.swift */; };
+		F3FD76752B286C50001C1F09 /* CardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD76742B286C50001C1F09 /* CardFront.swift */; };
+		F3FD76772B286C7C001C1F09 /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD76762B286C7C001C1F09 /* CardBack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3FD76542B286973001C1F09 /* StudyCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FD76572B286973001C1F09 /* StudyCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCardsApp.swift; sourceTree = "<group>"; };
+		F3FD76592B286973001C1F09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3FD765B2B286977001C1F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3FD765E2B286977001C1F09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3FD76602B286977001C1F09 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F3FD76632B286977001C1F09 /* StudyCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyCards.xcdatamodel; sourceTree = "<group>"; };
+		F3FD766A2B286996001C1F09 /* Rainbow Paper.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rainbow Paper.ttf"; sourceTree = "<group>"; };
+		F3FD766C2B2869C5001C1F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F3FD766E2B286B8F001C1F09 /* QuestionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionListView.swift; path = StudyCards/QuestionListView.swift; sourceTree = SOURCE_ROOT; };
+		F3FD76702B286C16001C1F09 /* AddQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionView.swift; sourceTree = "<group>"; };
+		F3FD76722B286C39001C1F09 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		F3FD76742B286C50001C1F09 /* CardFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFront.swift; sourceTree = "<group>"; };
+		F3FD76762B286C7C001C1F09 /* CardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3FD76512B286973001C1F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3FD764B2B286973001C1F09 = {
+			isa = PBXGroup;
+			children = (
+				F3FD76562B286973001C1F09 /* StudyCards */,
+				F3FD76552B286973001C1F09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FD76552B286973001C1F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FD76542B286973001C1F09 /* StudyCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3FD76562B286973001C1F09 /* StudyCards */ = {
+			isa = PBXGroup;
+			children = (
+				F3FD76572B286973001C1F09 /* StudyCardsApp.swift */,
+				F3FD766C2B2869C5001C1F09 /* Info.plist */,
+				F3FD766A2B286996001C1F09 /* Rainbow Paper.ttf */,
+				F3FD766D2B286B49001C1F09 /* Views */,
+				F3FD765B2B286977001C1F09 /* Assets.xcassets */,
+				F3FD76602B286977001C1F09 /* Persistence.swift */,
+				F3FD76622B286977001C1F09 /* StudyCards.xcdatamodeld */,
+				F3FD765D2B286977001C1F09 /* Preview Content */,
+			);
+			path = StudyCards;
+			sourceTree = "<group>";
+		};
+		F3FD765D2B286977001C1F09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3FD765E2B286977001C1F09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3FD766D2B286B49001C1F09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3FD76592B286973001C1F09 /* ContentView.swift */,
+				F3FD766E2B286B8F001C1F09 /* QuestionListView.swift */,
+				F3FD76702B286C16001C1F09 /* AddQuestionView.swift */,
+				F3FD76722B286C39001C1F09 /* QuizView.swift */,
+				F3FD76742B286C50001C1F09 /* CardFront.swift */,
+				F3FD76762B286C7C001C1F09 /* CardBack.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3FD76532B286973001C1F09 /* StudyCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FD76672B286977001C1F09 /* Build configuration list for PBXNativeTarget "StudyCards" */;
+			buildPhases = (
+				F3FD76502B286973001C1F09 /* Sources */,
+				F3FD76512B286973001C1F09 /* Frameworks */,
+				F3FD76522B286973001C1F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyCards;
+			productName = StudyCards;
+			productReference = F3FD76542B286973001C1F09 /* StudyCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3FD764C2B286973001C1F09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F3FD76532B286973001C1F09 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F3FD764F2B286973001C1F09 /* Build configuration list for PBXProject "StudyCards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3FD764B2B286973001C1F09;
+			productRefGroup = F3FD76552B286973001C1F09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3FD76532B286973001C1F09 /* StudyCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3FD76522B286973001C1F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FD765F2B286977001C1F09 /* Preview Assets.xcassets in Resources */,
+				F3FD766B2B286996001C1F09 /* Rainbow Paper.ttf in Resources */,
+				F3FD765C2B286977001C1F09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3FD76502B286973001C1F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FD76772B286C7C001C1F09 /* CardBack.swift in Sources */,
+				F3FD76612B286977001C1F09 /* Persistence.swift in Sources */,
+				F3FD766F2B286B8F001C1F09 /* QuestionListView.swift in Sources */,
+				F3FD76712B286C16001C1F09 /* AddQuestionView.swift in Sources */,
+				F3FD76642B286977001C1F09 /* StudyCards.xcdatamodeld in Sources */,
+				F3FD76732B286C39001C1F09 /* QuizView.swift in Sources */,
+				F3FD76752B286C50001C1F09 /* CardFront.swift in Sources */,
+				F3FD765A2B286973001C1F09 /* ContentView.swift in Sources */,
+				F3FD76582B286973001C1F09 /* StudyCardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3FD76652B286977001C1F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3FD76662B286977001C1F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3FD76682B286977001C1F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyCards/Preview Content\"";
+				DEVELOPMENT_TEAM = 225UULAN53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyCards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stac.StudyCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FD76692B286977001C1F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyCards/Preview Content\"";
+				DEVELOPMENT_TEAM = 225UULAN53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyCards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stac.StudyCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3FD764F2B286973001C1F09 /* Build configuration list for PBXProject "StudyCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FD76652B286977001C1F09 /* Debug */,
+				F3FD76662B286977001C1F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FD76672B286977001C1F09 /* Build configuration list for PBXNativeTarget "StudyCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FD76682B286977001C1F09 /* Debug */,
+				F3FD76692B286977001C1F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3FD76622B286977001C1F09 /* StudyCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3FD76632B286977001C1F09 /* StudyCards.xcdatamodel */,
+			);
+			currentVersion = F3FD76632B286977001C1F09 /* StudyCards.xcdatamodel */;
+			path = StudyCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3FD764C2B286973001C1F09 /* Project object */;
+}
